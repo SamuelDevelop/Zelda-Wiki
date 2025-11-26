@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Hylia Serif';
+    src: url("../fonts/hylia-serif/Hylia\ Serif/HyliaSerifBeta-Regular.otf") format('opentype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Triforce Serif';
+    src: url("../fonts/Triforce.ttf") format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
