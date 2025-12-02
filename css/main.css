@@ -8,7 +8,7 @@ body *{
 
 .main{
     width: 100%;
-    height: calc(100vh - 12rem);
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,4 +41,33 @@ body *{
 .main button:hover{
     background-color: white;
     color: rgb(0, 81, 54);
+}
+
+.main img{
+    width: 10%;
+}
+.table{
+    width: 80%;
+    margin: 1rem auto;
+    border-collapse: collapse;
+}
+.table *{
+    border: 1px rgba(255, 255, 255, 0.151) solid;
+}
+
+.table-key{
+    background-color: rgb(0, 81, 54);
+    padding: 1rem;
+} 
+
+.table-value{
+    background-color: rgb(0, 36, 24);
+    padding: 1rem;
+}
+
+.respostas-resposta{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 81, 54);
+    padding: 0.2rem;
+    border: 1px rgba(255, 255, 255, 0.151) solid;
 }

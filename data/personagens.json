@@ -6,10 +6,12 @@
       "tambem_conhecido": ["Heroí do Tempo", "Heroí", "Heroí das deusas", "Heroí Ancião", "Heroí da Four Sword"],
       "imagens": ["images/data/pers/link-artwork.png", "images/data/pers/link-artwork-mm.png", "images/data/pers/link-artwork-oot.png"],
       "propriedades": {
-        "genero": "homem",
-        "raça": "hylian",
-        "versões": "criança, adulto, goron, zora",
-        "aparicacao": "1986",
+        "genero": "Homem",
+        "associacao": "Hylian",
+        "raça": "Humano",
+        "versoes": "criança, adulto, goron, zora",
+        "aparicao": "1986",
+        "alienacao": "Heroí",
         "descricao": "Link é o protagonista da série The Legend of Zelda.Ele apareceu em muitas encarnações ao longo da série, geralmente retratado como um menino ou jovem comum que se torna um herói lendário ao salvar o mundo por meio de feitos de coragem.Encarnações específicas de Link podem ser distinguidas por títulos como o Herói do Tempo em Ocarina of Time e o Herói dos Ventos em The Wind Waker . Todas as encarnações de Link possuem o espírito do herói e, portanto, estão destinadas a lutar contra o mal."
       }            
     },
@@ -17,12 +19,14 @@
       "id": "zelda",
       "nome": "Zelda",
       "tambem_conhecido": ["Princesa Zelda", "Princesa"],
-      "imagens": ["images/data/pers/link-artwork.png", "images/data/pers/link-artwork-mm.png", "images/data/pers/link-artwork-oot.png"],
+      "imagens": ["images/data/pers/zelda-artwork.png", "images/data/pers/link-artwork-mm.png", "images/data/pers/link-artwork-oot.png"],
       "propriedades": {
-        "genero": "mulher",
-        "raça": "hylian",
-        "versões": "criança, adulto",
-        "aparicacao": "1986",
+        "genero": "Mulher",
+        "associacao": "Hylian",
+        "raça": "Humano",
+        "versoes": "criança, adulto",
+        "aparicao": "1986",
+        "alienacao": "Heroí",
         "descricao": "Zelda é personagem homônima da série The Legend of Zelda."
       }            
     }
