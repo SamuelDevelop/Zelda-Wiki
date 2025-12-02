@@ -1,7 +1,6 @@
 const GIFS = [
     "images/link_gifs/link_yes.gif",
     "images/link_gifs/figth_link.gif",
-    "images/link_gifs/mini_link.gif",
     "images/link_gifs/normal_link.gif",
 ]
 

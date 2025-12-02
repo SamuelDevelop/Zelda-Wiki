@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(18, 38, 26);
+    background-color: rgb(22, 32, 25);
 }
 
 body *{
@@ -41,9 +41,4 @@ body *{
 .main button:hover{
     background-color: white;
     color: rgb(0, 81, 54);
-}
-
-.main img{
-    width: 200px;
-    height: 200px;
 }
