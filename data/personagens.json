@@ -18,8 +18,8 @@
     {
       "id": "zelda",
       "nome": "Zelda",
-      "tambem_conhecido": ["Princesa Zelda", "Princesa"],
-      "imagens": ["images/data/pers/zelda-artwork.png", "images/data/pers/link-artwork-mm.png", "images/data/pers/link-artwork-oot.png"],
+      "tambem_conhecido": ["Princesa Zelda"],
+      "imagens": ["images/data/pers/zelda-artwork.png", "images/data/pers/zelda-artwork-oot.png", "images/data/pers/zelda-artwork-totk.png"],
       "propriedades": {
         "genero": "Mulher",
         "associacao": "Hylian",
@@ -28,6 +28,51 @@
         "aparicao": "1986",
         "alienacao": "Heroí",
         "descricao": "Zelda é personagem homônima da série The Legend of Zelda."
+      }            
+    },
+    {
+      "id": "ganon",
+      "nome": "Ganon",
+      "tambem_conhecido": ["Calamidade Ganon"],
+      "imagens": ["images/data/pers/ganon-artwork.png"],
+      "propriedades": {
+        "genero": "Homem",
+        "associacao": "Demônio",
+        "raça": "Demônio",
+        "versoes": "Ganondorf, Calamidade Ganon",
+        "aparicao": "1986",
+        "alienacao": "Vilão",
+        "descricao": "Ganon é um personagem recorrente na série The Legend of Zelda. Ele é o principal antagonista da série, fazendo sua estreia no primeiro jogo, The Legend of Zelda , e desde então esteve presente ou foi mencionado na maioria dos títulos subsequentes."
+      }            
+    },
+    {
+      "id": "ganondorf",
+      "nome": "Ganondorf",
+      "tambem_conhecido": ["Rei dos Gerudo", "Rei dos Ladrões", "Rei Demônio", "O Homem Perverso do Deserto"],
+      "imagens": ["images/data/pers/ganondorf-artwork.png"],
+      "propriedades": {
+        "genero": "Homem",
+        "associacao": "Rei dos Gerudo",
+        "raça": "Gerudo",
+        "versoes": "Ganondorf, Calamidade Ganon",
+        "aparicao": "1986",
+        "alienacao": "Vilão",
+        "descricao": "Ganon é um personagem recorrente na série The Legend of Zelda. Ele é o principal antagonista da série, fazendo sua estreia no primeiro jogo, The Legend of Zelda , e desde então esteve presente ou foi mencionado na maioria dos títulos subsequentes."
+      }            
+    },
+    {
+      "id": "impa",
+      "nome": "Impa",
+      "tambem_conhecido": ["Sábia das Sombras", "Serva da Família", "Senhora Impa"],
+      "imagens": ["images/data/pers/impa-artwork.png"],
+      "propriedades": {
+        "genero": "Mulher",
+        "associacao": "Sheikah",
+        "raça": "Humano",
+        "versoes": "Normal",
+        "aparicao": "1986",
+        "alienacao": "Sábio",
+        "descricao": "Em The Legend of Zelda , Impa aparece no jogo como uma velha, embora seu nome só conste no manual do jogo. Quando Hyrule estava sob ataque das forças de Ganon em The Legend of Zelda , a Princesa Zelda ordenou que sua velha ama, Impa, fugisse secretamente e encontrasse alguém que pudesse salvá-los."
       }            
     }
   ]  

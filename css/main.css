@@ -70,4 +70,9 @@ body *{
     color: rgb(0, 81, 54);
     padding: 0.2rem;
     border: 1px rgba(255, 255, 255, 0.151) solid;
+    cursor: pointer;
+}
+
+.respostas-resposta:hover{
+    background-color: rgb(172, 172, 172);
 }

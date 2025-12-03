@@ -18,6 +18,11 @@ function getHTMLByItem(objeto){
         `;
     });
 
-    STRING += `</table>`;
+    STRING += 
+    `
+        </table>
+        <button onclick="loadMain()">Voltar</button>
+    `
+    ;
     return STRING;
 }

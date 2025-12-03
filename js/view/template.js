@@ -5,5 +5,5 @@
         CORPO.innerHTML = "<p>Não há personagens.</p>";
         return;
     }
-    CORPO.innerHTML = getHTMLByItem(personagens[0]);
+    CORPO.innerHTML = getHTMLByItem(personagens[1]);
 })();
