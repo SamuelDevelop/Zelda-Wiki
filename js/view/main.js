@@ -3,7 +3,7 @@ const CORPO = document.querySelector(".main");
 function loadMain(){
     CORPO.innerHTML = 
     `
-        <img class="imagem-central" src="images/link_gifs/link_yes.gif">
+        <img class="imagem-central main-image" src="images/link_gifs/link_yes.gif">
         <h2>Como podemos ajuda-lo hoje?</h2>
         <div class="campo-pesquisa">
             <input id="campo-pesquisa" type="text" placeholder="Pesquisar...">

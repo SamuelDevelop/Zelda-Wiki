@@ -4,6 +4,7 @@ body{
 
 body *{
     color: white;
+    transition: all ease-in-out 200ms;
 }
 
 .main{
@@ -15,17 +16,42 @@ body *{
     justify-content: center;
 }
 
+.main h1{
+    font-size: 50pt;
+    animation: slideUp 500ms ease-out forwards;
+}
+
 .main h2{
     font-family: Hylia Serif;  
-    font-size: 20pt;
+    font-size: 30pt;
+    width: 100%;
+    padding-left: 1rem;
+    box-sizing: border-box;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(to right, #ffffff, #ffffff2a, #ffffff00) 60;
+    animation: slideUp 500ms ease-out forwards;
+}
+
+.main p{
+    font-family: "Inter", sans-serif;
+    text-align: justify;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box; 
+    animation: slideUp 500ms ease-out forwards;
 }
 
 .main input{
-    background-color: rgb(0, 81, 54);
+    text-align: left;
+    background-image: linear-gradient(to right, #ffffff, #ffffff2a, #ffffff00);
+    color: rgb(0, 81, 54);
     outline: none;
     border-radius: 50px;
     border: none;
+    width: 20rem;
     padding: 0.5rem 1rem;
+    animation: slideUp 500ms ease-out forwards;
 }
 
 .main button{
@@ -35,7 +61,6 @@ body *{
     border: none;
     padding: 0.5rem 1rem;
     cursor: pointer;
-    transition: all ease-in-out 200ms;
 }
 
 .main button:hover{
@@ -43,36 +68,98 @@ body *{
     color: rgb(0, 81, 54);
 }
 
-.main img{
+.main-image{
     width: 10%;
+    animation: slideUp 500ms ease-out forwards;
 }
+
+.second-image{
+    width: 8%;
+    animation: slideUp 500ms ease-out forwards;
+}
+
+@media (min-width:401px) and (max-width: 800px) {
+    .main-image{
+        width: 20%;
+    }
+    .second-image{
+        width: 18%;
+    }
+}
+
+@media (max-width: 400px) {
+    .main-image{
+        width: 30%;
+    }
+    .second-image{
+        width: 28%;
+    }
+}
+
+@media (max-width: 800px) {
+    .main h1{
+        font-size: 30pt;
+    }
+
+    .main h2{
+        font-size: 20pt;
+    }
+}
+
+.main *::selection{
+    background-color: rgb(0, 81, 54);
+}
+
 .table{
     width: 80%;
     margin: 1rem auto;
     border-collapse: collapse;
+    animation: slideUp 500ms ease-out forwards;
 }
 .table *{
-    border: 1px rgba(255, 255, 255, 0.151) solid;
+    font-family: "Inter", sans-serif;
+    border: none;
+    transition: all 200ms ease-in-out;
+}
+
+.table *:hover{
+    color: rgb(0, 81, 54);
+    background-color: rgb(255, 255, 255);
 }
 
 .table-key{
     background-color: rgb(0, 81, 54);
-    padding: 1rem;
+    padding: 0.5rem 1rem;
 } 
 
 .table-value{
-    background-color: rgb(0, 36, 24);
-    padding: 1rem;
+    background-color: rgb(6, 68, 47);
+    padding: 0.5rem 1rem;
 }
 
 .respostas-resposta{
+    font-family: "Inter", sans-serif;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 81, 54);
     padding: 0.2rem;
-    border: 1px rgba(255, 255, 255, 0.151) solid;
+    
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, rgba(39, 136, 104, 0.055), rgba(39, 136, 104, 0.76), rgba(39, 136, 104, 0.055)) 30;
     cursor: pointer;
 }
 
 .respostas-resposta:hover{
-    background-color: rgb(172, 172, 172);
+    color: white;
+    background-color: rgb(0, 81, 54);
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
